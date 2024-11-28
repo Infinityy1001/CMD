@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shell | Antoine Martinet</title>
+  <link rel="icon" href="assets/coder.png" type="image/png">
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <div id="terminal">
+      <div class="controls">
+        <ul>
+          <li id="quit">&#x25CF;</li>
+          <li id="hide">&#x25CF;</li>
+          <li id="expand">&#x25CF;</li>
+          
+        </ul>
+      </div>
+      <div class="message">
+        <p>
+          Welcome to the shell !<br />Session based UUID:
+          <span class="session-userid"></span><br />Type
+          <span id="helper">"help" </span>to
+          see available commands. <br /><span id="case-sense">All Commands are case
+            insensitive.
+          </span>
+        </p>
+      </div>
+      <div id="insert" class="dynamic-content"></div>
+    </div>
+  </div>
+  <div class="maximize-terminal footer-on-exit">
+    <p>
+      <span>Restore <span>&UpArrowBar; </span></span>
+    </p>
+  </div>
+  <div class="footer">
+    <p>
+      Coded by <a target="_blank" rel="noopener" class="dev-credit" href="https://github.com/Infinityy1001">Antoine Martinet</a>
+    </p>
+  </div>
+  <script src="./main.js"></script>
+</body>
+
+</html>
